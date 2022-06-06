@@ -39,7 +39,7 @@ addHtmlHeader() {
         display: none;
     }
   </style>
-  <title>Prowler - AWS Security Assessments</title>
+  <title>Integration Partners - AWS Security Assessments</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-xl sticky-top navbar-dark bg-dark">
