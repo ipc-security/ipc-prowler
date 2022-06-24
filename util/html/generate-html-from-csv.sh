@@ -31,8 +31,8 @@ OUTPUT_FILE_NAME="report-unified-csv"
 EXTENSION_HTML="html"
 INPUT=$1
 IFS=',' # used inside the while loop for csv delimiter 
-HTML_LOGO_URL="https://github.com/ipc-security/ipc-prowler/"
-HTML_LOGO_IMG="https://raw.githubusercontent.com/ipc-security/ipc-prowler/blob/master/util/html/prowler-logo-new.png"
+#HTML_LOGO_URL="https://github.com/ipc-security/ipc-prowler/"
+HTML_LOGO_IMG="https://github.com/ipc-security/ipc-prowler/raw/master/util/html/prowler-logo-new.png"
 
 
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
@@ -83,7 +83,7 @@ addHtmlHeader() {
               <b>Date:</b> $TIMESTAMP
             </li>
             <li class="list-group-item">
-              <img src="$HTML_LOGO_IMG" alt="prowler-logo">
+              <img src="$HTML_LOGO_IMG" alt="prowler-logo" width="70%">
             </li>
           </ul>
         </div>
